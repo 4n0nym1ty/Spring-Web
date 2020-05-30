@@ -55,7 +55,6 @@ public class LoggingServiceImpl implements LoggingService {
             String value = request.getHeader(key);
             map.put(key, value);
         }
-        map.put("traceId","HDS1234567890");
         return map;
     }
 
